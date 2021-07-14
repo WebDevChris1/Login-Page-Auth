@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Quicksand, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.background-image-container {
+  display: flex;
+  background-image: url("background.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-container {
+  padding: 50px 30px;
+  background-color: hsla(201, 100%, 6%, 0.6);
+  width: 50%;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+.greeting {
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+
+.input-group input {
+  background-color: hsla(201, 100%, 91%, 0.3);
+  border: 1px solid hsl(201, 100%, 6%);
+  outline: none;
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+}
+
+.input-group input:focus {
+  border: 1px solid hsl(201, 100%, 50%);
+}
+
+#error-msg {
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.login-button {
+  padding: 10px 30px;
+  width: 100%;
+  border: 1px solid hsl(201, 100%, 50%);
+  background-color: hsla(201, 100%, 50%, 0.1);
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: hsla(201, 100%, 50%, 0.3);
+}
+
+.login-button:focus {
+  background-color: hsla(201, 100%, 50%, 0.5);
+}

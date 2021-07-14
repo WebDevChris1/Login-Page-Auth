@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign in</title>
+  </head>
+  <body>
+    <div class="background-image-container">
+      <div class="sign-in-container">
+        <h3 id="greeting" class="greeting">Please Sign In</h3>
+        <form id="login-form">
+          <div class="input-group">
+            <label id="label-email">Email</label>
+            <input id="email" type="email" />
+          </div>
+          <div class="input-group">
+            <label id="label-pass">Password</label>
+            <input id="pass" type="password" />
+          </div>
+          <p id="error-msg"></p>
+          <button type="submit" id="submit" class="login-button">
+            Sign in
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
