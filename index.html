@@ -8,25 +8,34 @@
     <title>Sign in</title>
   </head>
   <body>
+    <!-- background image -->
     <div class="background-image-container">
+      <!-- sign in box -->
       <div class="sign-in-container">
+        <!-- Top message -->
         <h3 id="greeting" class="greeting">Please Sign In</h3>
+        <!-- form -->
         <form id="login-form">
+          <!-- email input -->
           <div class="input-group">
             <label id="label-email">Email</label>
             <input id="email" type="email" />
           </div>
+          <!-- password input -->
           <div class="input-group">
             <label id="label-pass">Password</label>
             <input id="pass" type="password" />
           </div>
-          <p id="error-msg"></p>
+          <!-- render message to user -->
+          <p id="msg"></p>
+          <!-- submit button -->
           <button type="submit" id="submit" class="login-button">
             Sign in
           </button>
         </form>
       </div>
     </div>
+    <!-- load JS -->
     <script src="./script.js"></script>
   </body>
 </html>
